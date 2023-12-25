@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="whole-container">
+      <section class="rectangle">
+        <header class="links">
+          <img
+            class="rectangle-links__icon-x"
+            src="images/exit.svg"
+            alt="close"
+          />
+          <img
+            class="rectangle-links__icon-s"
+            src="images/cps.svg"
+            alt="logo"
+          />
+          <img
+            class="rectangle-links__icon-q"
+            src="images/search.svg"
+            alt="lookup"
+          />
+        </header>
+        <nav class="rectangle-services">
+          <div class="rectangle-services__active">
+            <img src="images/blue-highlight.svg" alt="blueline" />
+            <a class="rectangle-services__active-a" href="#"
+              >Equipment Repair</a
+            >
+          </div>
+          <a class="rectangle-services__link" href="#">Services</a>
+          <a class="rectangle-services__link" href="#">For Corporate Clients</a>
+          <a class="rectangle-services__link" href="#">For Equipment Sellers</a>
+          <a class="rectangle-services__link" href="#">For Partners</a>
+          <a class="rectangle-services__link" href="#">For Manufacturers</a>
+          <a class="rectangle-services__link" href="#">Our Service Centers</a>
+          <a class="rectangle-services__link" href="#">Contacts</a>
+        </nav>
+        <footer class="rectangle-footer">
+          <div class="rectangle-footer__icons">
+            <img
+              class="rectangle-footer__icon rectangle-footer__icon--phone phone-button"
+              src="images/ic-phone.svg"
+              alt="phone"
+            />
+            <img
+              class="rectangle-footer__icon rectangle-footer__icon--message message-button"
+              src="images/ic-message.svg"
+              alt="message"
+            />
+            <img
+              class="rectangle-footer__icon"
+              src="images/ic-profile.svg"
+              alt="profile"
+            />
+          </div>
+          <div class="rectangle-footer__contact">
+            <p class="rectangle-footer__mail">mail@cps.com</p>
+            <p class="rectangle-footer__phone">8 800 890 8900</p>
+          </div>
+        </footer>
+        <div class="rectangle-footer__language">
+          <p>
+            <span class="rectangle-selected-language">RU</span>
+            <span class="rectangle-unselected-language">EN</span>
+            <span class="rectangle-unselected-language">CH</span>
+          </p>
+        </div>
+      </section>
+      <!-- container for main content -->
+      <div class="container">
+        <div id="pageOverlay"></div>
+
+        <!-- navigation card -->
+        <nav class="top-nav">
+          <a href="#"
+            ><img
+              class="top-nav__image--burger"
+              src="images/burger.svg"
+              alt="burger"
+          /></a>
+          <div class="top-nav__image--line-hidden"></div>
+          <a href="#">
+            <img class="top-nav__image--cps" src="images/cps.svg" alt="cps" />
+          </a>
+          <a class="top-nav__image top-nav__image--hidden" href="#"
+            ><img class="phone-button" src="images/ic-phone.svg" alt="call"
+          /></a>
+          <a class="top-nav__image top-nav__image--hidden" href="#"
+            ><img class="message-button" src="images/ic-message.svg" alt="chat"
+          /></a>
+          <a class="top-nav__image top-nav__image--hidden" href="#"
+            ><img src="images/ic-profile.svg" alt="profile"
+          /></a>
+          <div class="top-nav__image--line"></div>
+          <a href="#">
+            <img
+              class="top-nav__image"
+              src="images/ic-repair.svg"
+              alt="ic-repair"
+            />
+          </a>
+          <a href="#"
+            ><img
+              class="top-nav__image"
+              src="images/check-status.svg"
+              alt="check-status"
+          /></a>
+        </nav>
+
+        <!-- Services Card -->
+        <section class="services">
+          <header class="services__header">
+            <img src="images/blue-highlight.svg" alt="blue-line" />
+            <h2>Services</h2>
+            <div class="services__icons">
+              <span>Submit a Request</span>
+              <img src="images/ic-repair.svg" alt="repair" />
+              <span>Repair Status</span>
+              <img src="images/search.svg" alt="search" />
+            </div>
+          </header>
+          <!-- services Navigation Bar -->
+          <nav class="services__navigation">
+            <div class="services__nav-item services__nav-item--hidden">
+              <a href="#">Brands We Repair</a>
+            </div>
+            <div class="services__nav-item">
+              <a href="#">Repairable Devices</a>
+            </div>
+            <div class="services__nav-item">
+              <a href="#">Additional Services</a>
+            </div>
+            <div class="services__nav-item">
+              <a href="#">Service Prices</a>
+            </div>
+            <div class="services__nav-item services__nav-item--hidden">
+              <a href="#">Service Center Locations</a>
+            </div>
+            <div class="services__nav-item">
+              <a href="#">Special Prices</a>
+            </div>
+            <div class="services__nav-item services__nav-item--hidden">
+              <a href="#">Reviews</a>
+            </div>
+          </nav>
+          <!-- Services Info Section -->
+          <div class="main-info">
+            <div class="services__text">
+              <p class="services__description">
+                We are an authorized service center for Dell equipment repair.
+                Only with us can you repair your Dell laptop with the official
+                manufacturer's warranty.
+              </p>
+
+              <p class="services_description--hidden">
+                We have been operating successfully since 1992 and have earned a
+                reputation as a reliable partner.
+                <span class="services__span"
+                  >We take pride in the fact that people come to us based on
+                  recommendations and, in turn, recommend us to their family and
+                  friends.</span
+                >
+              </p>
+              <div class="read-more-button" role="button">
+                <img src="images/arrow.svg" class="read-arrow" alt="arrow" />
+                <span>Read More</span>
+              </div>
+            </div>
+            <img
+              class="services__pic"
+              src="images/company-pic.png"
+              alt="company-pic"
+            />
+          </div>
+        </section>
+
+        <section class="brand">
+          <header class="brand__header">
+            <h2>REPAIR OF EQUIPMENT FROM VARIOUS BRANDS</h2>
+          </header>
+
+          <div class="swiper brand-swiper">
+            <!-- Additional required wrapper -->
+            <!-- holds touch area -->
+            <div class="swiper-wrapper">
+              <!-- Slides My own  -->
+              <div class="swiper-slide">
+                <img src="images/lenovo.png" alt="lenovo" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/samsung.png" alt="samsung" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/apple.png" alt="apple" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Bosch.png" alt="bosch" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/hp.png" alt="hp" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/acer.png" alt="acer" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/viewsonic.png" alt="viewsonic" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/sony.png" alt="sony" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/lenovo.png" alt="lenovo" />
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!-- Brands Mid Viewport+ -->
+        <div class="large-brand">
+          <div class="large-brand__container">
+            <img src="images/lenovo.png" alt="lenovo" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container">
+            <img src="images/samsung.png" alt="samsung" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container">
+            <img src="images/apple.png" alt="apple" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container is-hidden">
+            <img src="images/viewsonic.png" alt="viewsonic" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container">
+            <img src="images/Bosch.png" alt="bosch" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container">
+            <img src="images/hp.png" alt="hp" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container">
+            <img src="images/acer.png" alt="acer" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container is-hidden">
+            <img src="images/sony.png" alt="sony" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container is-hidden">
+            <img src="images/lenovo.png" alt="lenovo" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container is-hidden">
+            <img src="images/samsung.png" alt="samsung" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+          <div class="large-brand__container is-hidden">
+            <img src="images/apple.png" alt="apple" />
+            <img src="images/ic-go.svg" alt="go" />
+          </div>
+        </div>
+
+        <div class="show-button" role="button">
+          <img class="arrow" src="images/arrow.svg" alt="arrow" />
+          <span>Show All</span>
+        </div>
+
+        <!-- Repair Section  -->
+        <section class="repair">
+          <header class="repair__header">
+            <h2>REPAIR OF EQUIPMENT BY TYPE</h2>
+          </header>
+
+          <div class="swiper repair-swiper">
+            <!-- Additional required wrapper -->
+            <!-- holds touch area -->
+            <div class="swiper-wrapper">
+              <!-- Slides My own  -->
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Tablet Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>PC Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+              <div class="swiper-slide">
+                <p>Laptop Repair</p>
+                <img src="images/ic-go.svg" alt="go" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- Repair Slides My own  -->
+          <div class="repair2">
+            <div class="repair2__slide">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide">
+              <p>Tablet Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide">
+              <p>PC Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div
+              class="repair2__slide repair2__slide--hidden1 rhidden rshowing"
+            >
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide rhidden">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide rhidden">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide rhidden">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide rhidden">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+            <div class="repair2__slide rhidden">
+              <p>Laptop Repair</p>
+              <img src="images/ic-go.svg" alt="go" />
+            </div>
+          </div>
+          <div class="repair-button" role="button">
+            <img class="rarrow" src="images/arrow.svg" alt="arrow" />
+            <span>Show All</span>
+          </div>
+        </section>
+        <!-- prices Section -->
+        <section class="prices">
+          <header>Service Prices</header>
+
+          <div class="swiper prices-swiper">
+            <!-- Additional required wrapper -->
+            <!-- holds touch area -->
+            <div class="swiper-wrapper">
+              <!-- Slides My own  -->
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="repair-services">
+                  <h4>Repair Services</h4>
+                  <p>Testing with a technical report issuance</p>
+                </div>
+                <div class="repair-prices">
+                  <h4>Price</h4>
+                  <p>Free</p>
+                </div>
+                <div class="time-order">
+                  <div class="repair-time">
+                    <h4>Time</h4>
+                    <p>30-120 min</p>
+                  </div>
+                  <button class="order-button">
+                    <span>ORDER</span>
+                    <img src="images/button-icon.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- price table -->
+
+          <div class="flex-table">
+            <div class="flex-row header">
+              <div class="flex-cell">Repair Services</div>
+              <div class="flex-cell">Price</div>
+              <div class="flex-cell">Time</div>
+              <div class="flex-cell">Action</div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-cell">Diagnostics</div>
+              <div class="flex-cell">Free</div>
+              <div class="flex-cell">30 min</div>
+              <div class="flex-cell">
+                <button class="table-button">
+                  <span>ORDER</span>
+                  <img src="images/button-icon.svg" alt="Order" />
+                </button>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-cell">Display Replacement</div>
+              <div class="flex-cell">$1000</div>
+              <div class="flex-cell">30-120 min</div>
+              <div class="flex-cell">
+                <button class="table-button">
+                  <span>ORDER</span>
+                  <img src="images/button-icon.svg" alt="Order" />
+                </button>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-cell">Polyphonic Speaker Replacement</div>
+              <div class="flex-cell">$1000</div>
+              <div class="flex-cell">30-120 min</div>
+              <div class="flex-cell">
+                <button class="table-button">
+                  <span>ORDER</span>
+                  <img src="images/button-icon.svg" alt="Order" />
+                </button>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-cell">
+                Testing with a technical report issuance
+              </div>
+              <div class="flex-cell">$1000</div>
+              <div class="flex-cell">30-120min</div>
+              <div class="flex-cell">
+                <button class="table-button">
+                  <span>ORDER</span>
+                  <img src="images/button-icon.svg" alt="Order" />
+                </button>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex-cell">Software Replacement</div>
+              <div class="flex-cell">$1000</div>
+              <div class="flex-cell">30-120 min</div>
+              <div class="flex-cell">
+                <button class="table-button">
+                  <span>ORDER</span>
+                  <img src="images/button-icon.svg" alt="Order" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="main-footer">
+          <p>
+            All prices are inclusive of VAT. Repair cost is stated for a single
+            service. For a commercial offer on ongoing maintenance, please
+            submit a request.
+          </p>
+          <p>Get a Commercial Offer" or "Request Commercial Proposal</p>
+          <div class="copyright">
+            <div class="developed">
+              <h3>&copy; 2019 CPS</h3>
+              <h3>Developed by the Apesong</h3>
+            </div>
+            <div class="privacy"><h3>Privacy Policy</h3></div>
+            <div class="public">
+              <h3>
+                The information posted on this page does not constitue a public
+                offer
+              </h3>
+            </div>
+          </div>
+        </footer>
+        <!--container div below-->
+      </div>
+
+      <div class="feedback-container">
+        <div class="feedback__card">
+          <header>
+            <img src="images/exit.svg" class="exit-feedback" />
+            <div>
+              <div class="header-img">
+                <img src="images/blue-highlight.svg" alt="highlight" />
+                <h2>Feedback</h2>
+              </div>
+            </div>
+          </header>
+          <form>
+            <textarea class="feedback__textarea" name="message">Name</textarea>
+            <textarea class="feedback__textarea" name="phone">Phone</textarea>
+            <textarea class="feedback__textarea" name="email">Email</textarea>
+            <textarea class="feedback__textarea" name="message">
+Message</textarea
+            >
+            <p>
+              By clicking “submit”, you consent to the processing of personal
+              data and agree with our privacy policy.
+            </p>
+            <button class="feedback__button">
+              Send <img src="images/button-icon.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="order-call">
+        <div class="order-call__card">
+          <header>
+            <img class="exit-call" src="images/exit.svg" alt="exit" />
+            <div class="order-blue">
+              <img src="images/blue-highlight.svg" alt="highlight" />
+              <h2>Order Call</h2>
+            </div>
+          </header>
+          <form>
+            <textarea name="message" rows="2" cols="50">Phone</textarea>
+            <p>
+              By clicking “submit”, you consent to the processing of personal
+              data and agree with our privacy policy.
+            </p>
+            <button class="order-call__button">
+              Send <img src="images/button-icon.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!--whole container div below-->
+    </div>
+
+    <!-- Feedback Rectangle -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../src/project.js"></script>
+    <script src="/dist/bundle.js"></script>
+  </body>
+</html>
